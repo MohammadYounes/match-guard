@@ -1,0 +1,23 @@
+{
+  "name": "match-guard",
+  "version": "0.0.0",
+  "description": "Simplify pattern matching by guarding parts of the input string",
+  "keywords": [
+    "string",
+    "replace",
+    "regex",
+    "match",
+    "guard"
+  ],
+  "author": "Mohammad Younes",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^3.2.0",
+    "standard": "^8.6.0"
+  },
+  "scripts": {
+    "lint": "standard && node ./lib/match-guard.js",
+    "test": "npm run lint && mocha -R spec"
+  },
+  "main": "./lib/match-guard.js"
+}
